@@ -1,0 +1,4 @@
+all:
+	gcc -o main my_add.c my_sub.c main.c
+clean:
+	rm -f main.exe
