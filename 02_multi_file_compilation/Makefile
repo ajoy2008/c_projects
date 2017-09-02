@@ -8,5 +8,6 @@ OBJ = my_add.o my_sub.o main.o
 
 main: $(OBJ)
 	gcc $(CFLAGS) -o $@ $^
+
 clean:
 	rm -f *.o main.exe
